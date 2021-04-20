@@ -10,14 +10,14 @@
     <p>
       <strong>Instructions: </strong>
         Please read the article below in its entirety and answer the following questions to the best of your ability.
-        <br><br><br><br> 
+        <br><br><br><br>
 
-        Click <a href="${url}" target="_blank">here</a> for the article or copy paste it in your browser in a new tab: 
+        Click <a href="${url}" target="_blank">here</a> for the article or copy paste it in your browser in a new tab:
         <a href="${url}" target="_blank">${url}</a>
 
-        <br><br><br><br> 
+        <br><br><br><br>
         We define Asian and Pacific Islander as a person having origins in any of the original peoples of the Far East, Southeast Asia, the Indian subcontinent, or Pacific Islands including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, Vietnam, Hawaii, Guam, and Samoa,
-        <br><br> 
+        <br><br>
         Please reference this website if you are still unsure about any of the racial categories:
         <a href="https://www.census.gov/topics/population/race/about.html" target="_blank">https://www.census.gov/topics/population/race/about.html</a>
         <br><br>
@@ -28,18 +28,18 @@
     <div id="q1">
         <h3>1. Does the article explicitly state the race of the victim?</h3>
             <label for="has_victim_race"></label>
-            
+
             <select name="has_victim_race" id="has_victim_race" required>
                     <option hidden disabled selected value> -- select an option -- </option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
             </select>
     </div>
 
     <div id="q2">
         <h3>2. What was the race of the victim?</h3>
             <label for="victim_race"></label>
-            
+
             <select name="victim_race" id="victim_race" required>
                     <option hidden disabled selected value> -- select an option -- </option>
                     <option value="alaska">Alaska Native</option>
@@ -56,7 +56,7 @@
     <div id="q3">
         <h3>3. What was the race of the person who committed the crime?</h3>
             <label for="offender_race"></label>
-            
+
             <select name="offender_race" id="offender_race" required>
                     <option hidden disabled selected value> -- select an option -- </option>
                     <option value="alaska">Alaska Native</option>
@@ -79,12 +79,12 @@
     <div id="q5">
         <h3>5. What state did the crime take place in? </h3>
             <label for="state"></label>
-            
-            <select name="state" id="state">
-                    <option hidden disabled selected value> -- select an option -- </option>
-                    <option value="unknown">Unknown</option>
-                    <option value="not_us">Not in the US</option>
-                    <option value="AL">Alabama</option>
+
+            <select name="state" id="state" required>
+                  <option hidden disabled selected value> -- select an option -- </option>
+                  <option value="unknown">Unknown</option>
+                  <option value="not_us">Not in the US</option>
+                  <option value="AL">Alabama</option>
                 	<option value="AK">Alaska</option>
                 	<option value="AZ">Arizona</option>
                 	<option value="AR">Arkansas</option>
@@ -141,7 +141,7 @@
     <div id="q6">
         <h3>6. What year did the crime occur?</h3>
             <label for="year"></label>
-            
+
             <select name="year" id="year" required>
                     <option hidden disabled selected value> -- select an option -- </option>
                     <option value="2021">2021</option>
@@ -267,7 +267,7 @@
     <div id="q7">
         <h3>7. What month did the crime occur?</h3>
             <label for="month"></label>
-            
+
             <select name="month" id="month" required>
                     <option hidden disabled selected value> -- select an option -- </option>
                     <option value="january">January</option>
@@ -289,22 +289,22 @@
     <div id="q8">
         <h3>8. Is this article about a hate crime committed against an Asian person?</h3>
             <label for="asian_hate_crime"></label>
-            
+
             <select name="asian_hate_crime" id="asian_hate_crime" required>
                 <option hidden disabled selected value> -- select an option -- </option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="true">Yes</option>
+                <option value="false">No</option>
             </select>
     </div>
 
     <div id="q9">
         <h3>9. Is this article a news report or incident of hate crime against an Asian person?</h3>
         <label for="news_report"></label>
-            
+
         <select name="news_report" id="news_report" required>
             <option hidden disabled selected value> -- select an option -- </option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
             <option value="unknown">Unknown</option>
         </select>
     </div>
@@ -312,11 +312,11 @@
     <div id="q10">
         <h3>10. Is this article educating or bringing awareness about hate crime against an Asian person?</h3>
         <label for="education_awareness"></label>
-            
+
         <select name="education_awareness" id="education_awareness" required>
             <option hidden disabled selected value> -- select an option -- </option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
             <option value="unknown">Unknown</option>
         </select>
     </div>
