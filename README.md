@@ -23,3 +23,7 @@ Keywords for the news article scraper: hate crime, Asian violence, racism, xenop
 
 ### Part 5: Presentations 
 (2) Our last part of the project is presenting our project by making a video. For this video, we will explain our research question, methodology, and findings. We will also propose how our project has real-world applications and can contribute to combatting Asian hate crimes. 
+
+
+### Quality Control
+We opted to use majority vote as our method for encouraging stronger results we obtain from worker responses. Specfically, we have 3 workers answer a set list of questions for each article. From there, we made a dictionary for each article with respect to the questions in order to find the majority answer. From there, we return a csv with the majority answer labeled for each question, and for each article. 
