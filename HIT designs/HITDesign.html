@@ -9,10 +9,20 @@
 
     <p>
       <strong>Instructions: </strong>
-      Read this article in its entirety and answer the questions below. 
-    </p>
-    <p>
-      ~Article goes here~
+        Please read the article below in its entirety and answer the following questions to the best of your ability.
+        <br><br><br><br> 
+
+        Click <a href="${url}" target="_blank">here</a> for the article or copy paste it in your browser in a new tab: 
+        <a href="${url}" target="_blank">${url}</a>
+
+        <br><br><br><br> 
+        We define Asian and Pacific Islander as a person having origins in any of the original peoples of the Far East, Southeast Asia, the Indian subcontinent, or Pacific Islands including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, Vietnam, Hawaii, Guam, and Samoa,
+        <br><br> 
+        Please reference this website if you are still unsure about any of the racial categories:
+        <a href="https://www.census.gov/topics/population/race/about.html" target="_blank">https://www.census.gov/topics/population/race/about.html</a>
+        <br><br>
+        For our purposes, we use the federal definition of a hate crime. A hate crime include crimes committed based on the victim’s perceived or actual race, color, religion, national origin, sexual orientation, gender, gender identity, or disability. A hate crime must involve a “crime” and it is often a violent crime, such as assault, murder, arson, vandalism, or threats to commit such crimes.
+
     </p>
 
     <div id="q1">
@@ -39,6 +49,7 @@
                     <option value="native_hawaiian">Native Hawaiian</option>
                     <option value="pacific">Other Pacific Islander</option>
                     <option value="white">White or European American</option>
+                    <option value="unknown">Unknown</option>
             </select>
     </div>
 
@@ -55,12 +66,13 @@
                     <option value="native_hawaiian">Native Hawaiian</option>
                     <option value="pacific">Other Pacific Islander</option>
                     <option value="white">White or European American</option>
+                    <option value="unknown">Unknown</option>
             </select>
     </div>
 
 
     <div id="q4">
-        <h3>4. What city/town did the crime take place in?</h3>
+        <h3>4. What city/town did the crime take place in? If it is not stated in the article, write please "unknown"</h3>
             <crowd-input name="town" placeholder="Type your answer here" required></crowd-input>
     </div>
 
@@ -266,7 +278,7 @@
                     <option value="june">June</option>
                     <option value="july">July</option>
                     <option value="august">August</option>
-                    <option value="september">Septmeber</option>
+                    <option value="september">September</option>
                     <option value="october">October</option>
                     <option value="november">November</option>
                     <option value="december">December</option>
