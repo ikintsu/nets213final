@@ -1,0 +1,10 @@
+worker1,https://www.ny1.com/nyc/all-boroughs/public-safety/2020/11/26/nypd-officers-shot-in-queens-released-from-hospital-days-later,No,White or European American,Unknown,Queens,New York,2020,November,No,No,No 
+worker1,https://spectrumnews1.com/ky/louisville/news/2020/11/26/man-hit-by-officer-while-filming,No,Unknown,Unknown,Louisville,Kentucky,2020,November,No,No,No
+worker1,https://themtnear.com/2020/11/how-do-we-raise-anti-racist-children/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://laist.com/2020/11/26/racism_101_asked_and_answered_celebrating_multiculturalism_vs_being_a_culture_vulture.php,No,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://www.cbc.ca/news/canada/toronto/toronto-police-human-rights-complaint-1.5804937,Yes,Asian or Asian American,Unknown,Toronto,Not in the US,2011,March,Yes,Yes,Yes
+worker1,https://www.iol.co.za/the-star/opinion-analysis/bushiri-wont-respect-our-laws-as-he-came-here-illegally-and-sa-legal-system-let-him-do-as-he-pleased-29612e0e-8abc-4198-9570-3beaefb2d6fd,No,Black or African American,unknown,Not in the US,2020,November,No,No,No
+worker1,https://www.heraldscotland.com/business_hq/18902241.ian-mcconnell-brexit-obsessed-tories-must-wake-us-breath-fresh-air-think-young-opinion/,No,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://theperrynews.com/grimes-man-arrested-for-allegedly-sexually-assaulting-woman/,No,Unknown,White or European American,Grimes,Unknown,2020,October,No,No,No
+worker1,https://www.eugeneweekly.com/2020/10/21/179506/,Yes,Asian or Asian American,Unknown,Eugene,Oregon,2019,Unknown,No,No,Yes
+worker1,https://www.eugeneweekly.com/2021/04/16/here-we-are-again/,Yes,Asian or Asian American,Unknown,Unknown,Georgia,2021,Unknown,Yes,No,Yes
