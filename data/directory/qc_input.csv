@@ -1,0 +1,64 @@
+worker_id,url,has_victim_race,victim_race,offender_race,town,state,year,month,asian_hate_crime,news_report,education_awareness
+worker1,https://www.ny1.com/nyc/all-boroughs/public-safety/2020/11/26/nypd-officers-shot-in-queens-released-from-hospital-days-later,No,White or European American,Unknown,Queens,New York,2020,November,No,No,No 
+worker1,https://spectrumnews1.com/ky/louisville/news/2020/11/26/man-hit-by-officer-while-filming,No,Unknown,Unknown,Louisville,Kentucky,2020,November,No,No,No
+worker1,https://themtnear.com/2020/11/how-do-we-raise-anti-racist-children/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://laist.com/2020/11/26/racism_101_asked_and_answered_celebrating_multiculturalism_vs_being_a_culture_vulture.php,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://www.heraldscotland.com/business_hq/18902241.ian-mcconnell-brexit-obsessed-tories-must-wake-us-breath-fresh-air-think-young-opinion/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://theperrynews.com/grimes-man-arrested-for-allegedly-sexually-assaulting-woman/,No,Unknown,White or European American,Grimes,Unknown,2020,October,No,No,No
+worker1,https://www.bellinghamherald.com/news/local/article246583188.html,No,Unknown,White or European American,Bellingham,Unknown,2020,October,No,No,No
+worker1,https://www.nbcnews.com/news/asian-america/new-facebook-ads-tell-voters-which-lawmakers-voted-against-denouncing-n1244058,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,Yes
+worker1,https://www.virginiamercury.com/blog-va/vmi-denies-systemic-racism-but-pledges-cooperation-with-probe-virginias-tight-congressional-races-a-big-flap-over-richmond-geese-and-more-headlines/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://fox59.com/news/40000-being-transferred-to-carmel-police-budget-for-anti-racism-training/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://www.cbc.ca/news/canada/toronto/toronto-police-human-rights-complaint-1.5804937,Yes,Asian or Asian American,Unknown,Toronto,Not in the US,2011,March,Yes,Yes,Yes
+worker1,https://www.eugeneweekly.com/2020/10/21/179506/,Yes,Asian or Asian American,Unknown,Eugene,Oregon,2019,Unknown,No,No,Yes
+worker1,https://www.dallasnews.com/news/crime/2020/04/01/fbi-says-texas-stabbing-that-targeted-asian-american-family-was-hate-crime-fueled-by-coronavirus-fears/,Yes,Asian or Asian American,Unknown,Midland,Texas,2020,February,Yes,Yes,No
+worker1,https://globalnews.ca/news/6853735/vancouver-hate-crime-assault-covid19/,Yes,Asian or Asian American,White or European American,Vancouver,Not in the US,2020,March,Yes,Yes,No
+worker1,https://www.eugeneweekly.com/2021/04/16/here-we-are-again/,Yes,Asian or Asian American,Unknown,Unknown,Georgia,2021,Unknown,Yes,No,Yes
+worker1,https://abc7ny.com/coronavirus-hate-crime-febreeze-attack-asian-man-sprayed-with/5989856,Yes,Asian or Asian American,Black or African American,Brooklyn,New York,2020,March,Yes,Yes,No
+worker1,https://www.cnn.com/2020/04/06/us/teens-attack-woman-caused-coronavirus-trnd/index.html,Yes,Asian or Asian American,Unknown,Bronx,New York,2020,April,Yes,Yes,Yes
+worker1,https://www.khou.com/article/news/crime/houston-attack-asian-store-owner-hate-crime/285-a98e25d5-5472-436b-8e93-f589c3ea809b,Yes,Asian or Asian American,Black or African American,Houston,Texas,2021,March,Yes,Yes,Yes
+worker1,https://www.nbcnews.com/news/asian-america/smashed-windows-racist-graffiti-vandals-target-asian-americans-amid-coronavirus-n1180556,Yes,Asian or Asian American,Unknown,Seattle,Washington,2020,March,Yes,Yes,Yes
+worker1,https://www.wavy.com/news/local-news/chesapeake/possible-hate-crime-under-investigation-at-chesapeake-chinese-restaurant/,Yes,Asian or Asian American,Unknown,Chesapeake,Virginia,2020,April,Yes,No,Yes
+worker1,https://nypost.com/2020/03/29/hate-spewing-teens-yell-you-caused-coronavirus-b-h-at-asian-woman/,Yes,Asian or Asian American,Unknown,Brooklyn,New York,2020,March,Yes,Yes,No
+worker2,https://www.ny1.com/nyc/all-boroughs/public-safety/2020/11/26/nypd-officers-shot-in-queens-released-from-hospital-days-later,No,Black or African American,Unknown,Queens,New York,2020,November,No,No,No 
+worker2,https://spectrumnews1.com/ky/louisville/news/2020/11/26/man-hit-by-officer-while-filming,No,Unknown,Unknown,Louisville,Kentucky,2020,November,Yes,No,No
+worker2,https://themtnear.com/2020/11/how-do-we-raise-anti-racist-children/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker2,https://laist.com/2020/11/26/racism_101_asked_and_answered_celebrating_multiculturalism_vs_being_a_culture_vulture.php,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker2,https://www.heraldscotland.com/business_hq/18902241.ian-mcconnell-brexit-obsessed-tories-must-wake-us-breath-fresh-air-think-young-opinion/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker2,https://theperrynews.com/grimes-man-arrested-for-allegedly-sexually-assaulting-woman/,No,Unknown,White or European American,Grimes,Unknown,2020,October,No,No,No
+worker2,https://www.bellinghamherald.com/news/local/article246583188.html,No,Unknown,White or European American,Bellingham,Unknown,2020,October,No,No,No
+worker2,https://www.nbcnews.com/news/asian-america/new-facebook-ads-tell-voters-which-lawmakers-voted-against-denouncing-n1244058,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,Yes
+worker2,https://www.virginiamercury.com/blog-va/vmi-denies-systemic-racism-but-pledges-cooperation-with-probe-virginias-tight-congressional-races-a-big-flap-over-richmond-geese-and-more-headlines/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker2,https://fox59.com/news/40000-being-transferred-to-carmel-police-budget-for-anti-racism-training/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker2,https://www.cbc.ca/news/canada/toronto/toronto-police-human-rights-complaint-1.5804937,Yes,Asian or Asian American,Unknown,Toronto,Not in the US,2011,March,Yes,Yes,Yes
+worker2,https://www.eugeneweekly.com/2020/10/21/179506/,Yes,Asian or Asian American,Unknown,Eugene,Oregon,2019,Unknown,No,No,Yes
+worker2,https://www.dallasnews.com/news/crime/2020/04/01/fbi-says-texas-stabbing-that-targeted-asian-american-family-was-hate-crime-fueled-by-coronavirus-fears/,Yes,Asian or Asian American,Unknown,Midland,Texas,2020,February,Yes,Yes,No
+worker2,https://globalnews.ca/news/6853735/vancouver-hate-crime-assault-covid19/,Yes,Asian or Asian American,White or European American,Vancouver,Not in the US,2020,March,Yes,Yes,No
+worker2,https://www.eugeneweekly.com/2021/04/16/here-we-are-again/,Yes,Asian or Asian American,Unknown,Unknown,Georgia,2021,Unknown,Yes,No,Yes
+worker2,https://abc7ny.com/coronavirus-hate-crime-febreeze-attack-asian-man-sprayed-with/5989856,Yes,Asian or Asian American,Black or African American,Brooklyn,New York,2020,March,Yes,Yes,No
+worker2,https://www.cnn.com/2020/04/06/us/teens-attack-woman-caused-coronavirus-trnd/index.html,Yes,Unknown,Unknown,Bronx,New York,2020,April,Yes,Yes,Yes
+worker2,https://www.khou.com/article/news/crime/houston-attack-asian-store-owner-hate-crime/285-a98e25d5-5472-436b-8e93-f589c3ea809b,Yes,Asian or Asian American,Black or African American,Houston,Texas,2021,March,Yes,Yes,Yes
+worker2,https://www.nbcnews.com/news/asian-america/smashed-windows-racist-graffiti-vandals-target-asian-americans-amid-coronavirus-n1180556,Yes,Asian or Asian American,Unknown,Seattle,Washington,2020,November,Yes,Yes,Yes
+worker2,https://www.wavy.com/news/local-news/chesapeake/possible-hate-crime-under-investigation-at-chesapeake-chinese-restaurant/,Yes,Asian or Asian American,Unknown,Chesapeake,Virginia,2020,April,Yes,No,Yes
+worker2,https://nypost.com/2020/03/29/hate-spewing-teens-yell-you-caused-coronavirus-b-h-at-asian-woman/,Yes,Asian or Asian American,Unknown,Queens,New York,2020,March,Yes,Yes,No
+worker3,https://www.ny1.com/nyc/all-boroughs/public-safety/2020/11/26/nypd-officers-shot-in-queens-released-from-hospital-days-later,No,White or European American,Unknown,Bronx,New York,2020,November,No,No,No 
+worker3,https://spectrumnews1.com/ky/louisville/news/2020/11/26/man-hit-by-officer-while-filming,No,Unknown,Unknown,Louisville,Kentucky,2020,November,No,No,No
+worker3,https://themtnear.com/2020/11/how-do-we-raise-anti-racist-children/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker3,https://laist.com/2020/11/26/racism_101_asked_and_answered_celebrating_multiculturalism_vs_being_a_culture_vulture.php,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker3,https://www.heraldscotland.com/business_hq/18902241.ian-mcconnell-brexit-obsessed-tories-must-wake-us-breath-fresh-air-think-young-opinion/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker3,https://theperrynews.com/grimes-man-arrested-for-allegedly-sexually-assaulting-woman/,No,Unknown,White or European American,Grimes,Unknown,2020,October,No,No,No
+worker3,https://www.bellinghamherald.com/news/local/article246583188.html,No,Unknown,White or European American,Bellingham,Unknown,2020,October,No,No,No
+worker3,https://www.nbcnews.com/news/asian-america/new-facebook-ads-tell-voters-which-lawmakers-voted-against-denouncing-n1244058,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,Yes
+worker3,https://www.virginiamercury.com/blog-va/vmi-denies-systemic-racism-but-pledges-cooperation-with-probe-virginias-tight-congressional-races-a-big-flap-over-richmond-geese-and-more-headlines/,No,Unknown,Alaska Native,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker3,https://fox59.com/news/40000-being-transferred-to-carmel-police-budget-for-anti-racism-training/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker3,https://www.cbc.ca/news/canada/toronto/toronto-police-human-rights-complaint-1.5804937,Yes,Asian or Asian American,Unknown,Toronto,Not in the US,2011,March,Yes,Yes,Yes
+worker3,https://www.eugeneweekly.com/2020/10/21/179506/,Yes,Asian or Asian American,Unknown,Eugene,Oregon,2019,Unknown,No,No,Yes
+worker3,https://www.dallasnews.com/news/crime/2020/04/01/fbi-says-texas-stabbing-that-targeted-asian-american-family-was-hate-crime-fueled-by-coronavirus-fears/,Yes,Asian or Asian American,Unknown,Midland,Texas,2020,February,Yes,Yes,Yes
+worker3,https://globalnews.ca/news/6853735/vancouver-hate-crime-assault-covid19/,Yes,Asian or Asian American,White or European American,Vancouver,Not in the US,2020,March,Yes,Yes,No
+worker3,https://www.eugeneweekly.com/2021/04/16/here-we-are-again/,Yes,Asian or Asian American,Unknown,Unknown,Georgia,2021,Unknown,Yes,No,Yes
+worker3,https://abc7ny.com/coronavirus-hate-crime-febreeze-attack-asian-man-sprayed-with/5989856,Yes,Asian or Asian American,Black or African American,Brooklyn,New York,2020,March,Yes,Yes,No
+worker3,https://www.cnn.com/2020/04/06/us/teens-attack-woman-caused-coronavirus-trnd/index.html,Yes,Asian or Asian American,Unknown,Bronx,New York,2020,April,Yes,Yes,Yes
+worker3,https://www.khou.com/article/news/crime/houston-attack-asian-store-owner-hate-crime/285-a98e25d5-5472-436b-8e93-f589c3ea809b,Yes,Asian or Asian American,Black or African American,Houston,Texas,2021,March,Yes,Yes,Yes
+worker3,https://www.nbcnews.com/news/asian-america/smashed-windows-racist-graffiti-vandals-target-asian-americans-amid-coronavirus-n1180556,Yes,Asian or Asian American,Unknown,Seattle,Washington,2020,March,Yes,Yes,Yes
+worker3,https://www.wavy.com/news/local-news/chesapeake/possible-hate-crime-under-investigation-at-chesapeake-chinese-restaurant/,Yes,Asian or Asian American,Unknown,Chesapeake,Virginia,2020,April,Yes,No,Yes
+worker3,https://nypost.com/2020/03/29/hate-spewing-teens-yell-you-caused-coronavirus-b-h-at-asian-woman/,Yes,Asian or Asian American,Unknown,Brooklyn,New York,2021,March,Yes,Yes,No
