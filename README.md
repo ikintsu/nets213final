@@ -29,6 +29,8 @@ Keywords for the news article scraper: hate crime, Asian violence, racism, xenop
 ### Quality Control
 We opted to use majority vote as our method for encouraging stronger results we obtain from worker responses. Specfically, we have 3 workers answer a set list of questions for each article. From there, we made a dictionary for each article with respect to the questions in order to find the majority answer. From there, we return a csv with the majority answer labeled for each question, and for each article. 
 
-*The code for the quality contron sample input can be found here: data/directory/qc_input.csv*
+*The code for the quality control sample input can be found here: data/directory/qc_input.csv*
 
-*The code for the quality control module can be found here: src/directory/quality_control*
+*The code for the quality control sample output can be found here: data/directory/qc_output.csv*
+
+*The code for the quality control module can be found here: src/directory/majority_qc.py*
