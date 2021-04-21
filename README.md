@@ -36,3 +36,10 @@ We opted to use majority vote as our method for encouraging stronger results we 
 *The code for the quality control sample output can be found here: data/directory/qc_output.csv*
 
 *The code for the quality control module can be found here: src/directory/majority_qc.py*
+
+### Aggregation
+
+The main aggregation method uses crowdsourcing to label our data from the web scraper. If the article was related to Asian hate crime, we label it as TRUE and FALSE otherwise. Note that the code for this is under the quality control since we use majority vote to identify the true label of an article. 
+
+Another aggregation method we will use pertains to the other parts of the data we will collect from the workers for interesting analysis. This data involves the time and location in which the incident occurs. We will create a map of the United States displaying the frequency of incidents from our data set. The code and visual example is located in data/directory/ag_input1.txt and data/directory/ag_input2.csv. The reason there are two is because the first one was of an older data format, and in the interest of time we decided to keep it for submission. We also create a time plot to note trends in the number of attacks across the time period. The code and visual example for this plot is located in data/directory/ag_graph.py .
+
