@@ -1,7 +1,7 @@
 # NETS213 Final Project
 ## AAPI Hate Crimes Database
 
-Welcome to our final project repository.  This README contains the required information for "Final Project Part 2 Deliverable 1" and "Final Project Part 2 Deliverable 2."  To search for the materials required for Part 2 Deliverable 2, read **the text in bold.**
+Welcome to our final project repository.  This README contains the required information for "Final Project Part 2 Deliverable 1" and "Final Project Part 2 Deliverable 2."  To search for the materials required for Part 2 Deliverable 2, read *the text in italics.*
 
 ### Part 1: Web Scraping
 (4) Compile a list of keywords and then use the web scraper provided by Prof. CCB to crawl over news articles on Google that include the below hit words. The output of the crawler is a list of article URL that we will then convert to a CSV. For our project, we are only concerned with news reports or articles on an incident of violence against Asian American Pacific Islander (AAPI). We will present a list of ethnicities we include as AAPI including individuals from or descended from immigrants from South Asia, Southeast Asia, East Asia, Middle East, Central Asia, and Pacific Islands. We will attempt to crawl for a news article from 2002-2020, although we may have to make this range smaller to something like 2010-2021 if we cannot find articles from as early as 2002. The point of starting att 2002 is to see peaks of Asian hate crimes after 9/11 and after Donald Trump's presidency. 
@@ -29,4 +29,5 @@ Keywords for the news article scraper: hate crime, Asian violence, racism, xenop
 ### Quality Control
 We opted to use majority vote as our method for encouraging stronger results we obtain from worker responses. Specfically, we have 3 workers answer a set list of questions for each article. From there, we made a dictionary for each article with respect to the questions in order to find the majority answer. From there, we return a csv with the majority answer labeled for each question, and for each article. 
 
-**The code for the quality control module can be found at this filepath: src/directory/quality_control**
+*The code for the quality contron sample input can be found here: data/directory/qc_input.csv*
+*The code for the quality control module can be found here: src/directory/quality_control*
