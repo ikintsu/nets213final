@@ -43,7 +43,9 @@ The main aggregation method uses crowdsourcing to label our data from the web sc
 
 Another aggregation method we will use pertains to the other parts of the data we will collect from the workers for interesting analysis. This data involves the time and location in which the incident occurs. We will create a map of the United States displaying the frequency of incidents from our data set. 
 
-*The code and visual example is located in data/directory/ag_input1.txt and data/directory/ag_input2.csv*
+*The aggregation sample input is located in data/directory/ag_input1.txt and data/directory/ag_input2.csv*
+
+*The aggregation sample output is located in data/directory/stategraph_ex.PNG and data/directory/timegraph_ex.PNG*
 
 The reason there are two is because the first one was of an older data format, and in the interest of time we decided to keep it for submission. We also create a time plot to note trends in the number of attacks across the time period. 
 
