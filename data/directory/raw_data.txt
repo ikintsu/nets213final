@@ -1,6 +1,7 @@
+worker_id,article_id,has_victim_race,victim_race,offender_race,town,state,year,month,asian_hate_crime,news_report,education_awareness
 worker1,https://www.ny1.com/nyc/all-boroughs/public-safety/2020/11/26/nypd-officers-shot-in-queens-released-from-hospital-days-later,No,White or European American,Unknown,Queens,New York,2020,November,No,No,No 
 worker1,https://spectrumnews1.com/ky/louisville/news/2020/11/26/man-hit-by-officer-while-filming,No,Unknown,Unknown,Louisville,Kentucky,2020,November,No,No,No
-worker1,https://themtnear.com/2020/11/how-do-we-raise-anti-racist-children/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
+worker1,https://themtnear.com/2020/11/how-do-we-raise-anti-racist-children/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
 worker1,https://laist.com/2020/11/26/racism_101_asked_and_answered_celebrating_multiculturalism_vs_being_a_culture_vulture.php,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
 worker1,https://www.heraldscotland.com/business_hq/18902241.ian-mcconnell-brexit-obsessed-tories-must-wake-us-breath-fresh-air-think-young-opinion/,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No,No,No
 worker1,https://theperrynews.com/grimes-man-arrested-for-allegedly-sexually-assaulting-woman/,No,Unknown,White or European American,Grimes,Unknown,2020,October,No,No,No
