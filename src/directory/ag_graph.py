@@ -7,25 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1zCRfI3C379ZojcJ8EB5Oz4W6PrJ5jctV
 """
 
-#%pip install newspaper3k
-#%pip install chart_studio
 #%pip install plotly
-from chart_studio import plotly as py
-from plotly.offline import plot
 import plotly.graph_objects as go
 import pandas as pd
 import matplotlib.pyplot as plt
 import csv
-from newspaper import Article
-from newspaper import Config
-import nltk
-
-nltk.download('punkt')
-
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36"
-config = Config()
-config.browser_user_agent = user_agent
-config.request_timeout = 10
 
 ex_df = pd.read_csv('ag_input1.txt', sep=",", names=["Worker", "Date", "Term", "Link", "Label"])
 
