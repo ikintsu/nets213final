@@ -16,12 +16,15 @@
         <a href="${url}" target="_blank">${url}</a>
 
         <br><br><br><br>
-        We define Asian and Pacific Islander as a person having origins in any of the original peoples of the Far East, Southeast Asia, the Indian subcontinent, or Pacific Islands including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, Vietnam, Hawaii, Guam, and Samoa,
+        Please keep the following definitions in mind when answering the questions below. 
         <br><br>
-        Please reference this website if you are still unsure about any of the racial categories:
-        <a href="https://www.census.gov/topics/population/race/about.html" target="_blank">https://www.census.gov/topics/population/race/about.html</a>
+        RACE: We define <b>Asian and Pacific Islander</b> as a person having origins in any of the original peoples of Far East, Southeast Asia, the Indian subcontinent, or Pacific Islands including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, Vietnam, Hawaii, Guam, and Samoa. Alaskan natives and other idigenous groups in North America are not included.
         <br><br>
-        For our purposes, we use the federal definition of a hate crime. A hate crime include crimes committed based on the victim’s perceived or actual race, color, religion, national origin, sexual orientation, gender, gender identity, or disability. A hate crime must involve a “crime” and it is often a violent crime, such as assault, murder, arson, vandalism, or threats to commit such crimes.
+        Please reference this website if you are still unsure about any of the racial categories. <a href="https://www.census.gov/topics/population/race/about.html" target="_blank">https://www.census.gov/topics/population/race/about.html</a>
+        <br><br>
+        INCIDENT OF HATE: For our purposes, we are defining an incident of hate as any bias, discriminatory or racist action(s) both verbal or physical taken against a person because of their perceived race. An incident of hate is definitely any hate crime but all incidents of hate are not necessarily hate crimes. 
+        <br><br>
+        We use the federal definition of a hate crime. A hate crime includes crimes committed based on the victim’s perceived or actual race, color, religion, national origin, sexual orientation, gender, gender identity, or disability. A hate crime must involve a “crime” and it is often a violent crime, such as assault, murder, arson, vandalism, or threats to commit such crimes.
 
     </p>
 
@@ -33,6 +36,7 @@
                     <option hidden disabled selected value> -- select an option -- </option>
                     <option value="true">Yes</option>
                     <option value="false">No</option>
+                    <option value="unsure">Unsure</option>
             </select>
     </div>
 
@@ -70,22 +74,44 @@
             </select>
     </div>
 
-
     <div id="q4">
-        <h3>4. What city/town did the crime take place in? If it is not stated in the article, write please "unknown"</h3>
+        <h3>4. Is this article about an incident of hate committed against an Asian or Pacific Islander persons?</h3>
+            <label for="asian_hate_crime"></label>
+
+            <select name="asian_hate_crime" id="asian_hate_crime" required>
+                <option hidden disabled selected value> -- select an option -- </option>
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+    </div>
+
+
+    <div id="q5">
+        <h3>5. Does the article discuss or reference hate against Asian or Pacific Islander persons? (Does not need to be an incident, but rather examples may be raising awareness, investigations, etc.)</h3>
+        <label for="reference_hate"></label>
+
+        <select name="reference_hate" id="reference_hate" required>
+            <option hidden disabled selected value> -- select an option -- </option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+    </div>
+
+    <div id="q6">
+        <h3>6. What city/town did the crime take place in? If it is not stated in the article, write please "unknown"</h3>
             <label for="town"></label>
             <crowd-input name="town" placeholder="Type your answer here" required></crowd-input>
     </div>
 
-    <div id="q5">
-        <h3>5. What state did the crime take place in? </h3>
+    <div id="q7">
+        <h3>7. What state did the crime take place in? </h3>
             <label for="state"></label>
 
             <select name="state" id="state" required>
-                  <option hidden disabled selected value> -- select an option -- </option>
-                  <option value="unknown">Unknown</option>
-                  <option value="not_us">Not in the US</option>
-                  <option value="AL">Alabama</option>
+                    <option hidden disabled selected value> -- select an option -- </option>
+                    <option value="unknown">Unknown</option>
+                    <option value="not_us">Not in the US</option>
+                    <option value="AL">Alabama</option>
                 	<option value="AK">Alaska</option>
                 	<option value="AZ">Arizona</option>
                 	<option value="AR">Arkansas</option>
@@ -139,12 +165,13 @@
             </select>
     </div>
 
-    <div id="q6">
-        <h3>6. What year did the crime occur?</h3>
+    <div id="q8">
+        <h3>8. What year did the crime occur?</h3>
             <label for="year"></label>
 
             <select name="year" id="year" required>
                     <option hidden disabled selected value> -- select an option -- </option>
+                    <option value="unknown">Unknown</option>
                     <option value="2021">2021</option>
                     <option value="2020">2020</option>
                     <option value="2019">2019</option>
@@ -263,63 +290,6 @@
                     <option value="1906">1906</option>
                     <option value="1905">1905</option>
             </select>
-    </div>
-
-    <div id="q7">
-        <h3>7. What month did the crime occur?</h3>
-            <label for="month"></label>
-
-            <select name="month" id="month" required>
-                    <option hidden disabled selected value> -- select an option -- </option>
-                    <option value="january">January</option>
-                    <option value="february">February</option>
-                    <option value="march">March</option>
-                    <option value="april">April</option>
-                    <option value="may">May</option>
-                    <option value="june">June</option>
-                    <option value="july">July</option>
-                    <option value="august">August</option>
-                    <option value="september">September</option>
-                    <option value="october">October</option>
-                    <option value="november">November</option>
-                    <option value="december">December</option>
-            </select>
-    </div>
-
-
-    <div id="q8">
-        <h3>8. Is this article about a hate crime committed against an Asian person?</h3>
-            <label for="asian_hate_crime"></label>
-
-            <select name="asian_hate_crime" id="asian_hate_crime" required>
-                <option hidden disabled selected value> -- select an option -- </option>
-                <option value="true">Yes</option>
-                <option value="false">No</option>
-            </select>
-    </div>
-
-    <div id="q9">
-        <h3>9. Is this article a news report or incident of hate crime against an Asian person?</h3>
-        <label for="news_report"></label>
-
-        <select name="news_report" id="news_report" required>
-            <option hidden disabled selected value> -- select an option -- </option>
-            <option value="true">Yes</option>
-            <option value="false">No</option>
-            <option value="unknown">Unknown</option>
-        </select>
-    </div>
-
-    <div id="q10">
-        <h3>10. Is this article educating or bringing awareness about hate crime against an Asian person?</h3>
-        <label for="education_awareness"></label>
-
-        <select name="education_awareness" id="education_awareness" required>
-            <option hidden disabled selected value> -- select an option -- </option>
-            <option value="true">Yes</option>
-            <option value="false">No</option>
-            <option value="unknown">Unknown</option>
-        </select>
     </div>
     <br><br>
 </crowd-form>
