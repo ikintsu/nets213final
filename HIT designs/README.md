@@ -6,6 +6,7 @@ Our project hopes to help combat Asian American Pacific Islander (AAPI) hate by 
 
 Please note we are not simply interested in articles of hate crimes but also acts of racism, discrimination, or bias against AAPI since these are considered acts of hate and violence. We also acknowledge the difficulties in prosecuting and the problems with the current legal definition of hate crimes. Therefore, our work hopes to combat all forms of violence and hate, even if it cannot be criminally prosecuted. 
 
+
 ### Clarification on some tricky articles that may come up
 If the article is not about an incident of violence or hate against AAPI, you can answer no to the questions directly asking about this. For every other question, there is always an opt out answer like “Unknown”, “Unsure”, or “Not in the US”. If the article is not in English, you can stop reading and answer the questions. 
 
