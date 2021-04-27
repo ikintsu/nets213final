@@ -8,6 +8,9 @@ Welcome to our final project repository.  This README contains the required info
 
 Keywords for the news article scraper: hate crime, Asian violence, racism, xenophobia, assault, anti-Asian
 
+We first posted 10% of the 600 articles we plan to post on the MTurk platform on Sandbox. We will designate these labels as expert labels to be compared to the majority vote labels gathered from MTurk. Since there are only 60 labels, we will also easily be able to check for any outliers. This run also helps us clarify any directions or tweak parts of the HIT design. 
+
+
 ### Part 2: MTurk
 (2.5) After the crawler finishes, we will select about 1,000 articles and divide them into a training set and test set.  For our training data, we will evenly distribute the number of articles from each year except 2021 (since this year is shorter than all the others).  We will then use newspaper3k to extract texts from the selected articles. Once this is completed, we will regroup the articles by article length. We will do this since we understand that some articles are longer and want to appropriately pay workers for this. Therefore, we will ensure each batch has articles of similar length and pay workers more for longer articles. Additionally, mixing articles of different years together may reduce any bias if the workers already can predict the timeframe of the article, and the possibility the articles overlap and workers are influenced by the information they gain from an earlier article. 
 
