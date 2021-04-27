@@ -6,7 +6,6 @@ Welcome to our final project repository.  This README contains the required info
 ### Part 1: Web Scraping
 (4) Compile a list of keywords and then use the web scraper provided by Prof. CCB to crawl over news articles on Google that include the below hit words. The output of the crawler is a list of article URL that we will then convert to a CSV. For our project, we are only concerned with news reports or articles on an incident of violence against Asian American Pacific Islander (AAPI). We will present a list of ethnicities we include as AAPI including individuals from or descended from immigrants from South Asia, Southeast Asia, East Asia, Middle East, Central Asia, and Pacific Islands. We will attempt to crawl for a news article from 2002-2020, although we may have to make this range smaller to something like 2010-2021 if we cannot find articles from as early as 2002. The point of starting att 2002 is to see peaks of Asian hate crimes after 9/11 and after Donald Trump's presidency. 
 
-We are unsure if we should make these terms broader or if these will suffice.
 Keywords for the news article scraper: hate crime, Asian violence, racism, xenophobia, assault, anti-Asian
 
 ### Part 2: MTurk
