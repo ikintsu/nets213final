@@ -1,0 +1,69 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+    <p>
+        
+      <strong>CONTENT WARNING</strong>: Some of the articles may be triggering as it may include violent crimes and abuse. Worker discretion advised. 
+      <br><br>
+
+      <strong>Instructions: </strong>
+        Please read the article below in its entirety and answer the following questions to the best of your ability to identify if the article is about an incident of hate. 
+        <br><br>
+
+        <strong>INCIDENT OF HATE</strong>: For our purposes, we are defining an incident of hate as any bias, discriminatory or racist action(s) both verbal or physical taken against a person because of their perceived race. An incident of hate is definitely any hate crime but all incidents of hate are not necessarily hate crimes. 
+        <br><br>
+
+        We use the federal definition of a hate crime. A hate crime includes crimes committed based on the victim’s perceived or actual race, color, religion, national origin, sexual orientation, gender, gender identity, or disability. A hate crime must involve a “crime” and it is often a violent crime, such as assault, murder, arson, vandalism, or threats to commit such crimes.
+        <br><br><br><br>
+
+        Click <a href="${url}" target="_blank">here</a> for the article or copy paste it in your browser in a new tab:
+        <a href="${url}" target="_blank">${url}</a>
+        <br><br><br><br>
+
+        Please keep the following definitions in mind when answering the questions below. 
+        <br><br>
+
+        <strong>RACE</strong>: We define <strong>Asian and Pacific Islander</strong> as a person having origins in any of the original peoples of Far East, Southeast Asia, the Indian subcontinent, or Pacific Islands including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, Vietnam, Hawaii, Guam, and Samoa. Alaskan natives and other idigenous groups in North America are not included.
+        <br><br>
+
+        Please reference this website if you are still unsure about any of the racial categories. <a href="https://www.census.gov/topics/population/race/about.html" target="_blank">https://www.census.gov/topics/population/race/about.html</a>
+    </p>
+
+    <div id="q1">
+        <h3>1. Please copy/paste the title of the article here. If you cannot access the article please type NA.</h3>
+        <label for="title"></label>
+        <crowd-input name="title" placeholder="Paste the title of the article here" required></crowd-input>
+    </div>
+
+    <div id="q2">
+        <h3>2. Is this article about an incident of hate committed against an Asian or Pacific Islander persons?</h3>
+            <label for="asian_hate_crime"></label>
+
+            <select name="asian_hate_crime" id="asian_hate_crime" required>
+                <option hidden disabled selected value> -- select an option -- </option>
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+                <option value="invalid">Cannot access article or not in English</option>
+            </select>
+    </div>
+
+
+    <div id="q3">
+        <h3>3. Does the article discuss or reference hate against Asian or Pacific Islander persons? (Does not need to be an incident, but rather examples may be raising awareness, investigations, etc.)</h3>
+        <label for="reference_hate"></label>
+
+        <select name="reference_hate" id="reference_hate" required>
+            <option hidden disabled selected value> -- select an option -- </option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+            <option value="invalid">Cannot access article or not in English</option>
+        </select>
+    </div>
+    <br><br>
+</crowd-form>
