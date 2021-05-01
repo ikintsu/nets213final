@@ -48,3 +48,7 @@ The main aggregation method uses crowdsourcing to label our data from the web sc
 *The aggregation sample output can be found here: data/directory/stategraph_ex.PNG and data/directory/timegraph_ex.PNG*
 
 *The code for the aggreagation module can be found here: data/directory/ag_graph.py*
+
+### Classifier
+
+Using two different types of models, a Naive-Bayes Multinomial Classifier and a SVM classifier (Linear), we process the text of the articles as vectors, and the labels as 1 if there exists Asian Discrimination in the article and 0 otherwise. We used a training split of 80% for training, 10% for test, and another 10% classified by our model.
